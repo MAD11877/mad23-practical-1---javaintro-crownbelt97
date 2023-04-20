@@ -5,8 +5,6 @@ public class Question2
   public static void main(String[] args)
   {
     Scanner in = new Scanner(System.in);
-
-    System.out.println("Enter height and weight");
     
     double height = in.nextDouble();
     double weight = in.nextDouble();
