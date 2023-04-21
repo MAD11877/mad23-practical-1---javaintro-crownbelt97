@@ -5,8 +5,9 @@ public class Question4
   public static void main(String[] args)
   {
     Scanner in = new Scanner(System.in);
+  System.out.println("Enter num");
+    int rows = in.nextInt();
 
-    int rows=5;      
 //inner loop  
 for (int i= rows-1; i>=0 ; i--)  
 {  
@@ -17,7 +18,8 @@ for (int j=0; j<=i; j++)
 System.out.print("*");  
 }  
 //throws the cursor in the next line after printing each line  
-System.out.println();  
+System.out.println(); 
+  } 
 }
     
   }
